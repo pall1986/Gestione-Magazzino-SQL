@@ -20,7 +20,7 @@ namespace Gestione_Magazzino
         {
             InitializeComponent();
 
-            string connectionString = "Server=localhost;Database=db_gestione_magazzino;Uid=root;Pwd=0208Pall#!;";
+            string connectionString = "Server=localhost;Database=db_gestione_magazzino;Uid=root;Pwd=;";
 
             // Istanziamo tutti i componenti della logica dati
             _merceRepo = new MerceRepository(connectionString);
