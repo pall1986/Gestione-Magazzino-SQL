@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Gestione_Magazzino.Acquirente">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAgAQAAAAAAAA=</HashCode>
+      <FileName>Acquirente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ComuneResidenza" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Gestione_Magazzino.AcquirenteRepository" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>AcquirenteRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestione_Magazzino.Comune">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAEAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comune.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestione_Magazzino.Fattura">
+    <Position X="6.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQACAAAAAAAAAAAAgAAAAAAAAAAAAAAAAgAAAACAA=</HashCode>
+      <FileName>Fattura.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Intestatario" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Gestione_Magazzino.DettaglioFattura">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAgAgAAAAAAAAIAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DettaglioFattura.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MerceAcquistata" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Gestione_Magazzino.Merce">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAEAQAAAAAAAAAACAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Merce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestione_Magazzino.MerceRepository" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAICAAAg=</HashCode>
+      <FileName>MerceRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestione_Magazzino.RigaFattura">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAEAACAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RigaFattura.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FatturaDiRiferimento" />
+      <Property Name="Articolo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Gestione_Magazzino.Magazzino" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAgAAAAAAAAAEgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Magazzino.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestione_Magazzino.GiacenzaMagazzino">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAA=</HashCode>
+      <FileName>GiacenzaMagazzino.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MerceStoccata" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Gestione_Magazzino.Giacenza">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Giacenza.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Articolo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.String" Collapsed="true">
+    <Position X="12.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Int32" Collapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
